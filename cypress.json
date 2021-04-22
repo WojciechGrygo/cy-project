@@ -1,1 +1,5 @@
-{}
+{
+  "baseUrl": "http://www.webdriveruniversity.com",
+  "retries": 1,
+  "projectId": "awyq8b"
+}
