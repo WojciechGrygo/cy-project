@@ -1,4 +1,14 @@
 {
     "email": "sam_blogs@webdriveruni.com",
-    "first_name": "Sam"
+    "first_name": "Sam",
+    "users": [
+        {
+            "firstName": "Adam",
+            "lastName": "Kowalski"
+        },
+        {
+            "firstName": "Jakub",
+            "lastName": "Nowak"
+        }
+    ]
 }

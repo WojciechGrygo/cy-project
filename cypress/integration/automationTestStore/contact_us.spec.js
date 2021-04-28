@@ -12,7 +12,7 @@ describe("Test Contact Us form via Automation Test Store", () => {
         cy.get("a[href$='contact']").click().then(function(linkText){
             cy.log("Clicked on link using text: " + linkText.text())
         })
-        cy.get('#ContactUsFrm_first_name').type(data.first_name);
+        cy.get('#ContactUsFrm_first_name').type(data.users[1].firstName);
         cy.get('#ContactUsFrm_email').type(data.email);
         cy.get('#ContactUsFrm_email').should('have.attr', 'name', 'email')
         cy.get('#ContactUsFrm_enquiry').type("Do you provide additional discount on bulk orders?")
